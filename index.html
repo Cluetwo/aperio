@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A clue for Charity.">
   <title>Clue 2</title>
   <style>
     /* General Styles */
@@ -37,12 +38,12 @@
       -webkit-user-select: none;
     }
     /* Page 1 (Initial Screen with Clickable Icon) */
-   #page1 {
-  background-image: url('image1.png');
-  cursor: pointer;
-  pointer-events: auto; /* Re-enable for clickability */
-  background-size: 20%; /* Adjusts the icon size */
-}
+    #page1 {
+      background-image: url('image1.png');
+      cursor: pointer;
+      pointer-events: auto; /* Re-enable for clickability */
+      background-size: 20%; /* Adjusts the icon size */
+    }
     /* Page 2 (Full-Screen SVG Image) */
     #page2 {
       display: none;
@@ -51,6 +52,9 @@
   </style>
 </head>
 <body>
+  <!-- Hidden H1 tag for SEO purposes -->
+  <h1 style="display: none;">Aperio</h1>
+
   <!-- Page 1: Icon as Background Image -->
   <div id="page1" onclick="showPage2()"></div>
   
