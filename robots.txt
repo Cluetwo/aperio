@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cluetwo.github.io/Aperio/sitemap.xml
